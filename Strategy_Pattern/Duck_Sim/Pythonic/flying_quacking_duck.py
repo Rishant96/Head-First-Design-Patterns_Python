@@ -45,3 +45,4 @@ if __name__ == '__main__':
 
     d = QuackingWingedDuck(name="Nemopy")
     d.make_sound()
+    print(QuackingWingedDuck.__mro__)
